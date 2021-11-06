@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.UserCrudResolver = exports.ProductCrudResolver = exports.OrderCrudResolver = exports.CategoryCrudResolver = void 0;
+var CategoryCrudResolver_1 = require("./Category/CategoryCrudResolver");
+Object.defineProperty(exports, "CategoryCrudResolver", { enumerable: true, get: function () { return CategoryCrudResolver_1.CategoryCrudResolver; } });
+var OrderCrudResolver_1 = require("./Order/OrderCrudResolver");
+Object.defineProperty(exports, "OrderCrudResolver", { enumerable: true, get: function () { return OrderCrudResolver_1.OrderCrudResolver; } });
+var ProductCrudResolver_1 = require("./Product/ProductCrudResolver");
+Object.defineProperty(exports, "ProductCrudResolver", { enumerable: true, get: function () { return ProductCrudResolver_1.ProductCrudResolver; } });
+var UserCrudResolver_1 = require("./User/UserCrudResolver");
+Object.defineProperty(exports, "UserCrudResolver", { enumerable: true, get: function () { return UserCrudResolver_1.UserCrudResolver; } });
